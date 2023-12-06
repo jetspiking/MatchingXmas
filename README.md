@@ -1,5 +1,5 @@
 # MatchingXmas
-<img src="https://raw.githubusercontent.com/jetspiking/MatchingXmas/main/Screenshots/Screenshot0.png" Width="250">  <img src="https://raw.githubusercontent.com/jetspiking/MatchingXmas/main/Screenshots/Screenshot1.png" Width="250">
+<img src="https://raw.githubusercontent.com/jetspiking/MatchingXmas/main/Screenshots/Gameplay0.png" Width="250">  <img src="https://raw.githubusercontent.com/jetspiking/MatchingXmas/main/Screenshots/Gameplay1.png" Width="250">
 
 # Description
 MatchingXmas is a game that requires the player to match symbols based on their obtained memory of a previous viewed symbol.
