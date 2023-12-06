@@ -1,0 +1,173 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<PublishSingleFile>true</PublishSingleFile>
+	<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+	<ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\Images\Backgrounds\**" />
+    <Compile Remove="Resources\Images\Levels\**" />
+    <EmbeddedResource Remove="Resources\Images\Backgrounds\**" />
+    <EmbeddedResource Remove="Resources\Images\Levels\**" />
+    <None Remove="Resources\Images\Backgrounds\**" />
+    <None Remove="Resources\Images\Levels\**" />
+    <Page Remove="Resources\Images\Backgrounds\**" />
+    <Page Remove="Resources\Images\Levels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\Level0.png" />
+    <None Remove="Resources\Images\Level1.png" />
+    <None Remove="Resources\Images\Level10.png" />
+    <None Remove="Resources\Images\Level11.png" />
+    <None Remove="Resources\Images\Level12.png" />
+    <None Remove="Resources\Images\Level13.png" />
+    <None Remove="Resources\Images\Level14.png" />
+    <None Remove="Resources\Images\Level15.png" />
+    <None Remove="Resources\Images\Level16.png" />
+    <None Remove="Resources\Images\Level17.png" />
+    <None Remove="Resources\Images\Level18.png" />
+    <None Remove="Resources\Images\Level19.png" />
+    <None Remove="Resources\Images\Level2.png" />
+    <None Remove="Resources\Images\Level20.png" />
+    <None Remove="Resources\Images\Level3.png" />
+    <None Remove="Resources\Images\Level4.png" />
+    <None Remove="Resources\Images\Level5.png" />
+    <None Remove="Resources\Images\Level6.png" />
+    <None Remove="Resources\Images\Level7.png" />
+    <None Remove="Resources\Images\Level8.png" />
+    <None Remove="Resources\Images\Level9.png" />
+    <None Remove="Resources\Images\Levels.png" />
+    <None Remove="Resources\Images\LevelsBackground.png" />
+    <None Remove="Resources\Images\Startup.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emoji.Wpf" Version="0.3.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\Level0.png" />
+    <Resource Include="Resources\Images\Level1.png" />
+    <Resource Include="Resources\Images\Level10.png" />
+    <Resource Include="Resources\Images\Level11.png" />
+    <Resource Include="Resources\Images\Level12.png" />
+    <Resource Include="Resources\Images\Level13.png" />
+    <Resource Include="Resources\Images\Level14.png" />
+    <Resource Include="Resources\Images\Level15.png" />
+    <Resource Include="Resources\Images\Level16.png" />
+    <Resource Include="Resources\Images\Level17.png" />
+    <Resource Include="Resources\Images\Level18.png" />
+    <Resource Include="Resources\Images\Level19.png" />
+    <Resource Include="Resources\Images\Level2.png" />
+    <Resource Include="Resources\Images\Level20.png" />
+    <Resource Include="Resources\Images\Level3.png" />
+    <Resource Include="Resources\Images\Level4.png" />
+    <Resource Include="Resources\Images\Level5.png" />
+    <Resource Include="Resources\Images\Level6.png" />
+    <Resource Include="Resources\Images\Level7.png" />
+    <Resource Include="Resources\Images\Level8.png" />
+    <Resource Include="Resources\Images\Level9.png" />
+    <Resource Include="Resources\Images\Levels.png" />
+    <Resource Include="Resources\Images\LevelsBackground.png" />
+    <Resource Include="Resources\Images\Startup.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Audio\3Stars.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\3Stars.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\CardView.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\CardView.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Click.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Click.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Correct.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Correct.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Incorrect.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Incorrect.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Launch.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Launch.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\LevelComplete.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\LevelComplete.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Music0.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Music0.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Music1.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Music1.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Music2.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Music2.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Music3.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Music3.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Music4.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Music4.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\Ping.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\Audio\RemoveStar.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Audio\" />
+  </ItemGroup>
+
+</Project>

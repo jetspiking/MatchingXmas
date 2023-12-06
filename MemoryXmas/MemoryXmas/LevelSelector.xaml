@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="MatchingXmas.LevelSelector"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MatchingXmas"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid x:Name="MainGrid">
+        <Image x:Name="BackgroundImage" Stretch="UniformToFill"/>
+        <Image x:Name="LevelsImage" VerticalAlignment="Bottom" Stretch="Uniform"/>
+        <Label x:Name="MenuButton" Content="☰ Menu" Background="White" Width="200" Opacity=".8" FontFamily="SegoeUI" VerticalContentAlignment="Center" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontSize="42"  Margin="0,10,0,20"></Label>
+    </Grid>
+</UserControl>
